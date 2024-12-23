@@ -4,7 +4,7 @@ from flask import Flask, Response
 
 app = Flask(__name__)
 
-@app.route("/calendar")
+@app.route("/")
 def monthly_block_calendar():
     #== 月情報と当日 ==#
     now = datetime.now()
